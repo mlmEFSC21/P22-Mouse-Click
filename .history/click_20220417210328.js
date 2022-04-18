@@ -3,7 +3,7 @@ body.addEventListener(
     "click",
     function (e) {
         if (e.ctrlKey) {
-            alert(e.target.tagName);
+            alert(e.target.tagnName);
         } else if (e.shiftKey) {
             alert(e.type);
         }
