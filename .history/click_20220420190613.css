@@ -50,7 +50,7 @@ li {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     height: 100%;
     padding: 25px;
@@ -59,7 +59,7 @@ li {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-between;
     justify-content: space-between;
     height: 100%;
     padding: 25px;
@@ -68,7 +68,7 @@ li {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-around;
     justify-content: space-around;
     height: 100%;
     padding: 15px;
