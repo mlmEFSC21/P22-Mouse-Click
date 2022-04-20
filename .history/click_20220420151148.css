@@ -37,12 +37,12 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100vh;
+    justify-content: space-between;
+    align-items: space-between;
     gap: 35px;
 }
 .campingContainer {
     background-color: var(--primary-clr);
-    display: flex;
-    flex-direction: column;
 }
 .dayHikeContainer {
     background-color: var(--primary-clr);

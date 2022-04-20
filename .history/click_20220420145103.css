@@ -13,18 +13,13 @@
 }
 body {
     background-color: var(--background-clr);
-    margin: 25px;
-    margin-top: 0px;
 }
 header {
     background-color: var(--secondary-clr);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 75px;
-    margin-bottom: 35px;
-    padding: 5px;
 }
 nav ul {
     display: flex;
@@ -35,8 +30,6 @@ li {
 }
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100vh;
     gap: 35px;
 }
 .campingContainer {

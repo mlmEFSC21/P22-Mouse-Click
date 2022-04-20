@@ -43,6 +43,7 @@ li {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .dayHikeContainer {
     background-color: var(--primary-clr);

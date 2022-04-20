@@ -1,0 +1,30 @@
+:root {
+    --background-clr: #554840;
+    --primary-clr: #41533b;
+    --secondary-clr: #9e9a75;
+    --accent-clr: #604439;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.gridContainer {
+    display: grid;
+}
+img {
+    height: 300px;
+    width: 400px;
+}

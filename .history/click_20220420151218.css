@@ -41,8 +41,7 @@ li {
 }
 .campingContainer {
     background-color: var(--primary-clr);
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
 .dayHikeContainer {
     background-color: var(--primary-clr);
