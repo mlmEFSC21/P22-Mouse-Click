@@ -1,0 +1,56 @@
+:root {
+    --background-clr: #554840;
+    --primary-clr: #41533b;
+    --secondary-clr: #9e9a75;
+    --accent-clr: #604439;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--background-clr);
+    margin: 25px;
+    margin-top: 0px;
+}
+header {
+    background-color: var(--secondary-clr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 100px 50px;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+nav ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100vh;
+    gap: 35px;
+}
+.campingContainer {
+    background-color: var(--primary-clr);
+    display: flex;
+    flex-direction: column;
+}
+.dayHikeContainer {
+    background-color: var(--primary-clr);
+}
+.nightHikeContainer {
+    background-color: var(--primary-clr);
+}
+img {
+    height: 300px;
+    width: 400px;
+}

@@ -53,7 +53,6 @@ li {
     align-items: space-between;
     justify-content: space-between;
     height: 100%;
-    padding: 25px;
 }
 .dayHikeContainer {
     background-color: var(--primary-clr);
@@ -62,7 +61,6 @@ li {
     align-items: space-between;
     justify-content: space-between;
     height: 100%;
-    padding: 25px;
 }
 .nightHikeContainer {
     background-color: var(--primary-clr);
@@ -71,11 +69,9 @@ li {
     align-items: space-around;
     justify-content: space-around;
     height: 100%;
-    padding: 15px;
 }
 h2 {
-    margin-bottom: 10px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 p {

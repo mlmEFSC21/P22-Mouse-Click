@@ -20,8 +20,7 @@ body {
     margin: 25px;
     margin-top: 0px;
     font-family: "Flash Medium";
-    font-size: 1.15rem;
-    text-shadow: 0.5px 0.5px 3px gray;
+    font-size: 1.25rem;
 }
 header {
     background-color: var(--secondary-clr);
@@ -42,49 +41,26 @@ li {
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 125vh;
-    gap: 15px;
-    overflow: hidden;
+    grid-template-rows: 100vh;
+    gap: 35px;
 }
 .campingContainer {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    justify-content: space-between;
-    height: 100%;
-    padding: 25px;
 }
 .dayHikeContainer {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    justify-content: space-between;
-    height: 100%;
-    padding: 25px;
 }
 .nightHikeContainer {
     background-color: var(--primary-clr);
     display: flex;
     flex-direction: column;
-    align-items: space-around;
-    justify-content: space-around;
-    height: 100%;
-    padding: 15px;
-}
-h2 {
-    margin-bottom: 10px;
-    padding: 15px;
-    text-align: center;
-}
-p {
-    color: var(--secondary-clr);
-    text-shadow: 1px 1px 3px black;
 }
 img {
     align-self: center;
-    justify-self: flex-end;
     height: 300px;
     width: 400px;
 }
